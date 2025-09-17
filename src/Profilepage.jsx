@@ -12,8 +12,8 @@ const Profilepage = () => {
     const navigate = useNavigate()
 
   return (
-    <div className='flex'>
-      <div className="flex flex-col gap-4 mx-5 mt-3 ">
+    <div className='hidden md:flex'>
+      <div className="flex flex-col gap-4 mx-5  ">
           <div className="flex gap-2 items-center">
             <FaUser />
             <h3 className="text-2xl font-medium">Profile</h3>
@@ -47,7 +47,7 @@ const Profilepage = () => {
           </div>
         </div>
 
-        <div className="border border-[#BFBFBF] "></div>
+        <div className="border-r border-[#BFBFBF] h-auto min-h-screen "></div>
     </div>
   )
 }

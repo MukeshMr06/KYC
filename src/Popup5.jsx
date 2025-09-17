@@ -8,9 +8,9 @@ const Popup5 = () => {
     const navigate = useNavigate()
 
     return (
-        <div className="bg-black/50 inset-0 fixed flex items-center justify-center">
-            <div className="bg-white w-[600px] p-4 rounded-3xl flex flex-col gap-4">
-                <h2 className="flex justify-end text-2xl cursor-pointer">X</h2>
+        <div className=" inset-0 fixed flex items-center justify-center">
+            <div className="bg-white w-[400px] p-4 rounded-3xl flex flex-col gap-4 md:w-[600px]">
+                <h2 className="flex justify-end text-2xl cursor-pointer" onClick={()=> navigate('/')}>X</h2>
                 <div className="flex gap-2 justify-center">
                     <div className="bg-[#D9D9D9] w-18 h-5"></div>
                     <div className="bg-[#D9D9D9] w-18 h-5"></div>
@@ -52,8 +52,8 @@ const Popup5 = () => {
                     </div>
 
                     <div className=" mt-2 border flex justify-end gap-3">
-                        <button className=" w-20 p-1" onClick={()=> navigate('/popfour')}>Back</button>
-                        <button className=" w-20 p-1 bg-blue-500 text-white" onClick={()=> navigate('/help')}>Submit</button>
+                        <button className=" w-20 p-1" >Back</button>
+                        <button className=" w-20 p-1 bg-blue-500 text-white" onClick={()=> navigate('/')}>Submit</button>
                     </div>
 
                 </div>

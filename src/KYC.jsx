@@ -27,7 +27,7 @@ const KYC = () => {
           <div className="grid grid-cols-2 mt-3 md:grid-cols-3 gap-4">
             <div className="flex flex-col gap-3">
               <div className="relative border border-dashed border-[#4C8AFF] rounded-xl flex justify-center items-center bg-[#EBF5FF] w-40 h-40 md:w-90 md:h-68 md:bg-transparent">
-                <div className="bg-[#0159FF] rounded-full flex items-center justify-center w-10 h-10 md:w-16 md:h-16">
+                <div className="bg-[#0159FF] rounded-full flex items-center justify-center w-10 h-10 md:w-20 md:h-20">
                   <span className="text-white text-4xl md:text-4xl font-bold">+</span>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const KYC = () => {
             <div className="flex flex-col gap-3">
               <div className="relative border border-dashed border-[#4C8AFF] rounded-xl flex justify-center items-center bg-[#EBF5FF] w-40 h-40 md:w-90 md:h-68 md:bg-transparent">
                 <div className="bg-[#0159FF] rounded-full flex items-center justify-center w-10 h-10 md:w-20 md:h-20">
-                  <span className="text-white text-4xl md:text-7xl font-bold">+</span>
+                  <span className="text-white text-4xl md:text-4xl font-bold">+</span>
                 </div>
               </div>
 
@@ -77,10 +77,8 @@ const KYC = () => {
 
           <div className="flex flex-col gap-3">
             <div className="border border-dashed border-[#4C8AFF] bg-[#EBF5FF] gap-3 rounded-md flex flex-col justify-center items-center md:w-[600px] h-60 md:bg-transparent">
-              <div className="relative border border-dashed border-[#4C8AFF] rounded-xl flex justify-center items-center bg-[#EBF5FF] w-40 h-40 md:w-90 md:h-68 md:bg-transparent">
                 <div className="bg-[#0159FF] rounded-full flex items-center justify-center w-10 h-10 md:w-20 md:h-20">
-                  <span className="text-white text-4xl md:text-7xl font-bold">+</span>
-                </div>
+                  <span className="text-white text-4xl md:text-4xl font-bold">+</span>
               </div>
 
               <p className="text-[#606060] text-center hidden md:block md:text-xl">

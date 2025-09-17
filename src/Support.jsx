@@ -48,7 +48,7 @@ const Support = () => {
 
         <div className="flex flex-col mx-10 mt-7 gap-4 mb-10  md:flex-row">
           <button className="bg-[#DBE8FF] font-semibold px-4 py-2  cursor-pointer rounded-md md:w-20" onClick={() => navigate("/setting")}>Back</button>
-          <button className="bg-[#0159FF] text-white font-semibold  px-4 py-2 cursor-pointer rounded-md md:w-20">Submit</button>
+          <button className="bg-[#0159FF] text-white font-semibold  px-4 py-2 cursor-pointer rounded-md md:w-20" onClick={()=> navigate('/')}>Submit</button>
         </div>
 
       </div>

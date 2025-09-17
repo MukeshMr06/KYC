@@ -14,7 +14,7 @@ const Navebar = () => {
         <img className="w-32 h-20 object-contain cursor-pointer" src={logo} alt="Logo" onClick={() => navigate('/')} />
 
         <div className="flex gap-10 -mt-7 items-center">
-          <h2 className='cursor-pointer text-xl font-medium' onClick={()=> navigate('/setting')}>Dashboard</h2>
+          <h2 className='cursor-pointer text-xl font-medium' onClick={()=> navigate('/help')}>Dashboard</h2>
           <h2 className='text-xl font-medium'>Trading</h2>
           <h2 className='text-xl font-medium'>Orders</h2>
           <IoIosNotificationsOutline className='text-xl font-medium'/>
